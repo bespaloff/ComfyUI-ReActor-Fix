@@ -19,7 +19,7 @@ def ensure_nsfw_model(nsfwdet_model_path):
             model_path = os.path.join(nsfwdet_model_path, model_name)
             download(model_url, model_path, model_name)
 
-SCORE = 0.96
+SCORE = 9999.96
 
 logging.getLogger("transformers").setLevel(logging.ERROR)
 
